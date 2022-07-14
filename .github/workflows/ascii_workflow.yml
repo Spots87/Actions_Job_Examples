@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: ASCII art action step
         id: art
-        uses: ascii-action/word-art@v1
+        uses: Spots87/ascii-action@v1
         with:
           my-text: 'Neato'
       # Use the output from the `hello` step
