@@ -11,6 +11,6 @@ jobs:
         with:
           user-name: 'Guy'
           user-age: '45'
-          user-email: 'coolio@gmail.com'
+          user-email: 'bademail'
       - name: Get the validation output
         run: echo "${{ steps.validate.outputs.is-valid }}"
