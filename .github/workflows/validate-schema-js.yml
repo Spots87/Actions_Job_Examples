@@ -1,0 +1,14 @@
+on: workflow_dispatch
+
+jobs:
+  ascii-job:
+    runs-on: ubuntu-latest
+    name: validation
+    steps:
+      - name: Validate inputs against schema
+        id: validate
+        uses: Spots87/validate-schema-js@v1
+        with:
+          user-name: 'Guy'
+          user-age: '45'
+          user-email: 'coolio@gmail.com'
