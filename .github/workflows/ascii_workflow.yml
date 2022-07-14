@@ -10,6 +10,3 @@ jobs:
         uses: Spots87/ascii-action@v1
         with:
           my-text: 'Neato'
-      # Use the output from the `hello` step
-      - name: Print the ASCII art
-        run: echo "${{ steps.art.outputs.cool-text }}"
