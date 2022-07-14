@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: composite
     steps:
+      - uses: actions/checkout@v3
       - name: Testing wrapping other custom actions together
         id: composite
         uses: Spots87/composite-actions-practice@v1
